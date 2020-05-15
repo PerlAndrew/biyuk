@@ -1,0 +1,152 @@
+.calc{
+	width:600px;
+	height:800px;
+	margin:0 auto;
+	background-color:#FF69B4;
+    color:#FF69B4;
+    border:gray solid 15px;
+    border-radius:20%;
+}
+#inp{
+position:relative;
+left:90px;
+width:420px;
+font-size:50px;
+height:50px;
+margin:0 auto;
+background-color:#FF69B4;	
+border-top:none;
+border-left:none;
+border-right:none;
+border-bottom-color:red;
+ outline: none;
+}
+#inp:focus{
+border-bottom-color:blue;	
+}
+.fot{
+font-size:40px;
+color:black;
+display: grid;
+ padding:10px;
+  grid-template-areas: "post1 post2 post3 postp"  
+                       "post4 post5 post6 postm"  
+                       "post7 post8 post9 posty"
+                       "post0 postt postr postd"; 
+  grid-template-rows: repeat(4, 100px);
+  grid-template-columns: repeat(4, 100px);
+  text-align:center;
+  justify-content:center;
+}
+#number1{
+content:"1";
+grid-area:post1;
+width:70px;
+height:70px;
+background-color:orange;
+border-radius:50%;
+}
+#number2{
+grid-area:post2;
+border-radius:50%;
+width:70px;
+height:70px;
+background-color:orange;
+}
+#number3{
+ grid-area:post3;
+width:70px;
+height:70px;
+background-color:orange;
+border-radius:50%;
+}
+#number4{
+grid-area:post4;
+width:70px;
+height:70px;
+background-color:orange;
+border-radius:50%;
+}
+#number5{
+grid-area:post5;
+border-radius:50%;
+width:70px;
+height:70px;
+background-color:orange;
+}
+#number6{
+ grid-area:post6;
+width:70px;
+height:70px;
+background-color:orange;
+border-radius:50%;
+}#number7{
+grid-area:post7;
+width:70px;
+height:70px;
+background-color:orange;
+border-radius:50%;
+}
+#number8{
+grid-area:post8;
+border-radius:50%;
+width:70px;
+height:70px;
+background-color:orange;
+}
+#number9{
+ grid-area:post9;
+width:70px;
+height:70px;
+background-color:orange;
+border-radius:50%;
+}
+#number10{
+grid-area:postp;
+width:70px;
+height:70px;
+background-color:orange;
+border-radius:50%;
+}
+#number11{
+grid-area:postm;
+border-radius:50%;
+width:70px;
+height:70px;
+background-color:orange;
+}
+#number12{
+ grid-area:postr;
+width:70px;
+height:70px;
+background-color:orange;
+border-radius:50%;
+}
+#number13{
+grid-area:post0;
+width:70px;
+height:70px;
+background-color:orange;
+border-radius:50%;
+}
+#number14{
+grid-area:postd;
+border-radius:50%;
+width:70px;
+height:70px;
+background-color:orange;
+}
+#number15{
+ grid-area:postt;
+width:70px;
+height:70px;
+background-color:orange;
+border-radius:50%;
+}
+#number16{
+ grid-area:posty;
+width:70px;
+height:70px;
+background-color:orange;
+border-radius:50%;
+}
